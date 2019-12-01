@@ -3,6 +3,7 @@ html {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
   margin: 0;
@@ -37,7 +38,7 @@ h2 {
   bottom: 10%;
   display: block;
   top: 5px;
-  item-align: center;
+  text-align: center;
   margin-left: 15px;
 }
 
