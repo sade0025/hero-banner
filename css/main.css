@@ -21,7 +21,7 @@ html {
 }
 
 h2 {
-  line-height: 1.5;
+  line-height: 1.4;
   position: relative;
   font-size: 4rem;
   text-align: left;
@@ -33,7 +33,7 @@ h2 {
   position: absolute;
   min-width: 39.6em;
   left: 50%;
-  transform: translateX(50%);
+  transform: translateX(-50%);
   bottom: 10%;
   display: block;
   top: 5px;
