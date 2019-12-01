@@ -3,3 +3,58 @@ html {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  line-height: 1.5;
+  position: relative;
+  font-size: 4rem;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+.heading {
+  position: absolute;
+  min-width: 39.6em;
+  left: 50%;
+  transform: translateX(50%);
+  bottom: 10%;
+  display: block;
+  top: 5px;
+  item-align: center;
+  margin-left: 15px;
+}
+
+p {
+  position: relative;
+  color: #000;
+  text-align: left;
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 17px;
+  margin-right: 20px;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+body {
+  margin: 0;
+}
