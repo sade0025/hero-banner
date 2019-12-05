@@ -10,17 +10,6 @@ html {
   padding: 0;
 }
 
-.banner {
-  max-height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 h2 {
   line-height: 1.4;
   position: relative;
@@ -28,19 +17,6 @@ h2 {
   text-align: left;
   color: #fff;
   margin: 0;
-}
-
-.heading {
-  position: absolute;
-  min-width: 39.6em;
-  left: 50%;
-  transform: translate(-50%, -.5%);
-  bottom: 1.9em;
-  display: block;
-  top: 5px;
-  text-align: left;
-  text-indent: inherit;
-  margin-left: 15px;
 }
 
 p {
@@ -59,4 +35,29 @@ span {
 
 body {
   margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  width: 100%;
+  left: 53%;
+  right: auto;
+  transform: translate(-50%, -.5%);
+  bottom: 1.9em;
+  display: block;
+  top: 5px;
+  text-align: left;
+  text-indent: inherit;
+  margin-left: 15px;
 }
