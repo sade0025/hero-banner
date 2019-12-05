@@ -26,7 +26,6 @@ p {
   font-size: 2rem;
   font-style: italic;
   padding-top: 17px;
-  margin-right: 20px;
 }
 
 span {
@@ -51,13 +50,12 @@ body {
 .heading {
   position: absolute;
   width: 100%;
-  left: 53%;
-  right: auto;
-  transform: translate(-50%, -.5%);
-  bottom: 1.9em;
+  max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1.5rem;
   display: block;
-  top: 5px;
   text-align: left;
   text-indent: inherit;
-  margin-left: 15px;
+  padding: 0 1.5rem;
 }
